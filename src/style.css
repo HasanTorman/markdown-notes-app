@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h2,
+h5,
+hr {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/* Sidebar component */
+
+aside {
+  width: 200px;
+  border: 1px solid black;
+}
+
+.sidebar--header {
+  padding: 20px 30px;
+  display: flex;
+}
+
+.sidebar--title {
+  color: #164863;
+  margin-right: auto;
+}
+
+.sidebar--add {
+  height: 23px;
+  width: 23px;
+  background-color: #427d9d;
+  border: none;
+  color: white;
+}
+
+.sidebat--note {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #9bbec8;
+  color: #04364a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Editor */
